@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:fadeScrollbars="true"
+    android:fillViewport="true"
+    tools:context=".PortfolioActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+       >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_header_text"
+            android:textSize="@dimen/title_text_size"/>
+
+        <Button
+            android:id="@+id/button_project1"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/title_text_margin"
+            android:background="@color/blue"
+            android:text="@string/button_title1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_project2"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin"
+            android:background="@color/blue"
+            android:text="@string/button_title2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_project3"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin"
+            android:background="@color/blue"
+            android:text="@string/button_title3"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_project4"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin"
+            android:background="@color/blue"
+            android:text="@string/button_title4"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_project5"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin"
+            android:background="@color/blue"
+            android:text="@string/button_title5"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_project6"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin"
+            android:background="@color/blue"
+            android:text="@string/button_title6"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
